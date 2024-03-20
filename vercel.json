@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/generate-image",
-      "dest": "/api/server.js"
+      "dest": "/api/index.ts"
     },
     {
       "handle": "filesystem"
