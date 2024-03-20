@@ -20,7 +20,7 @@ const checkPassword = (req, res, next) => {
 
 app.use(express.static('public')); // Serve static files from the 'public' directory
 
-app.get('/generate-image', checkPassword, async (req, res) => {
+app.get('/generate-image', /*checkPassword,*/ async (req, res) => {
   const welcome = await new WelcomeLeave()
     .setAvatar(req.query.avatar)
     .setBackground("image", req.query.background)
