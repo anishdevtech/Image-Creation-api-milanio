@@ -1,15 +1,15 @@
 {
-  "name": "image-generator-server",
+  "name": "image-generation-server",
   "version": "1.0.0",
-  "description": "Express.js server for generating images with canvafy",
-  "main": "index.js",
+  "description": "A server for generating images using canvafy",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "canvafy": "^7.0.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
-    "canvas":"^2.11.2"
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5"
   }
 }
